@@ -1,0 +1,50 @@
+/* DEFAULT STYLES AND CSS VARIABLES */
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    --sublime: #FC5C7D;
+    --light: #6A82FB;
+}
+
+/* BODY, BACKGROUND AND OVERALL POSITION */
+
+body {
+    background: linear-gradient(120deg, var(--sublime), var(--light));
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+/* BUTTONS */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 0.5rem;
+    padding: 0.4rem;
+    border: none;
+    font-size: 1rem;
+    background: white;
+    color: var(--light);
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--light);
+    color: white;
+}
+
